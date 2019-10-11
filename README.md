@@ -4,11 +4,11 @@ Modifications to NN hyper-parameters and functions
 In this example, I modify the neural network `original-network.py` as follows (note changes in `new-network.py`):
 
 1. Add hyper-parameters:
-   + Cost functions, each implemented as a class with two functions: `fn()` (to compute the cost during evaluation) and `derivative` (to compute error during learning)
+   + Cost functions, each implemented as a class with two functions: `fn()` (to compute the cost during evaluation) and `derivative()` (to compute error during learning)
       - Quadratic cost
       - Cross entropy
       - Log Likelihood
-   + Activation functions, each implemented as a class with two functions: `fn()` (to compute the node acitivation value) and `derivative` (to compute the error during learning)
+   + Activation functions, each implemented as a class with two functions: `fn()` (to compute the node acitivation value) and `derivative()` (to compute the error during learning)
       - Sigmoid
       - Tanh
       - ReLU
