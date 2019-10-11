@@ -1,5 +1,5 @@
 # Programming-a-Neural-Network
-Modifications to NN hyper-parameters and functions
+## Modifications to NN hyper-parameters and functions
 
 In this example, I modify the neural network `original-network.py` as follows (note changes in `new-network.py`):
 
