@@ -4,23 +4,23 @@ Modifications to NN hyper-parameters and functions
 In this example, I modify the neural network `original-network.py` as follows (note changes in `new-network.py`):
 
 1. Add hyper-parameters:
-   + Cost functions, each implemented as a class with two functions: `fn()` (to compute the cost during evaluation) and `derivative()` (to compute error during learning)
+   + **Cost functions**, each implemented as a class with two functions: `fn()` (to compute the cost during evaluation) and `derivative()` (to compute error during learning)
       - Quadratic cost
       - Cross entropy
       - Log Likelihood
-   + Activation functions, each implemented as a class with two functions: `fn()` (to compute the node acitivation value) and `derivative()` (to compute the error during learning)
+   + **Activation functions**, each implemented as a class with two functions: `fn()` (to compute the node acitivation value) and `derivative()` (to compute the error during learning)
       - Sigmoid
       - Tanh
       - ReLU
       - Softmax
-   + Regularization, implemented as if-else conditionals
+   + **Regularization**, implemented as if-else conditionals
       - L1
       - L2
-   + Dropout rate, implemented by scaling the activation values of all hidden layers during the training phase, and using the same dropout nodes during one mini-batch
+   + **Dropout rate**, implemented by scaling the activation values of all hidden layers during the training phase, and using the same dropout nodes during one mini-batch
 2. Modify the following functions:
-   + feedforward()
-   + update_mini_batch()
-   + total_cost()
+   + `feedforward()`
+   + `update_mini_batch()`
+   + `total_cost()`
   
   You can watch a 5-minute video which quickly goes over these changes below:
   
